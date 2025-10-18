@@ -1,0 +1,2 @@
+{"level":"error","message":"Error authenticating user: Error: Invalid password","service":"acquistions-api","timestamp":"2025-10-18T16:37:25.092Z"}
+{"level":"error","message":"Sign in error Invalid password","service":"acquistions-api","stack":"Error: Invalid password\n    at authenticateUser (file:///C:/deveops/acquistions/src/services/auth.service.js:75:13)\n    at async signIn (file:///C:/deveops/acquistions/src/controllers/auth.contoller.js:65:18)","timestamp":"2025-10-18T16:37:25.093Z"}

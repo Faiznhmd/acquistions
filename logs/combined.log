@@ -22,3 +22,25 @@
 {"level":"info","message":"User registered successfully: me@gmail.com","service":"acquistions-api","timestamp":"2025-10-09T18:58:56.323Z"}
 {"level":"info","message":"::1 - - [09/Oct/2025:18:58:56 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 94 \"-\" \"PostmanRuntime/7.48.0\"","service":"acquistions-api","timestamp":"2025-10-09T18:58:56.327Z"}
 {"level":"info","message":"::1 - - [18/Oct/2025:16:33:49 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:33:49.208Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:34:06 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:34:06.062Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:34:40 +0000] \"POST /sign-up HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:34:40.665Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:36:04 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:36:04.659Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:36:14 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:36:14.005Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:36:19 +0000] \"GET /sign-in HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:36:19.075Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:36:26 +0000] \"POST /sign-in HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:36:26.493Z"}
+{"level":"error","message":"Error authenticating user: Error: Invalid password","service":"acquistions-api","timestamp":"2025-10-18T16:37:25.092Z"}
+{"level":"error","message":"Sign in error Invalid password","service":"acquistions-api","stack":"Error: Invalid password\n    at authenticateUser (file:///C:/deveops/acquistions/src/services/auth.service.js:75:13)\n    at async signIn (file:///C:/deveops/acquistions/src/controllers/auth.contoller.js:65:18)","timestamp":"2025-10-18T16:37:25.093Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:37:25 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 31 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:37:25.099Z"}
+{"level":"info","message":"User hlo@gmail.com authenticated successfully","service":"acquistions-api","timestamp":"2025-10-18T16:37:34.239Z"}
+{"level":"info","message":"User signed in successfully: hlo@gmail.com","service":"acquistions-api","timestamp":"2025-10-18T16:37:34.261Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:37:34 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:37:34.265Z"}
+{"level":"info","message":"User faizan@gmail.com created successfully","service":"acquistions-api","timestamp":"2025-10-18T16:37:49.631Z"}
+{"level":"info","message":"User registered successfully: faizan@gmail.com","service":"acquistions-api","timestamp":"2025-10-18T16:37:49.633Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:37:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:37:49.635Z"}
+{"level":"info","message":"User faizan1@gmail.com created successfully","service":"acquistions-api","timestamp":"2025-10-18T16:38:16.665Z"}
+{"level":"info","message":"User registered successfully: faizan1@gmail.com","service":"acquistions-api","timestamp":"2025-10-18T16:38:16.667Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:16:38:16 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 105 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T16:38:16.669Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquistions-api","timestamp":"2025-10-18T17:01:20.759Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:01:20 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:01:20.781Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"acquistions-api","timestamp":"2025-10-18T17:02:10.456Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:02:10 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:02:10.460Z"}
