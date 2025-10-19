@@ -56,3 +56,46 @@
 {"level":"info","message":"::1 - - [18/Oct/2025:17:04:04 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:04:04.006Z"}
 {"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquistions-api","timestamp":"2025-10-18T17:05:26.366Z","userAgent":"PostmanRuntime/7.49.0"}
 {"level":"info","message":"::1 - - [18/Oct/2025:17:05:26 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:05:26.369Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api","service":"acquistions-api","timestamp":"2025-10-18T17:07:20.406Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:07:20 +0000] \"GET /api HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:07:20.408Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api","service":"acquistions-api","timestamp":"2025-10-18T17:07:30.624Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:07:30 +0000] \"GET /api HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:07:30.626Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api","service":"acquistions-api","timestamp":"2025-10-18T17:08:34.027Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:08:34 +0000] \"GET /api HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:08:34.031Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api","service":"acquistions-api","timestamp":"2025-10-18T17:17:52.753Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:17:52 +0000] \"GET /api HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:17:52.805Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"acquistions-api","timestamp":"2025-10-18T17:18:01.713Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:18:01 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:18:01.716Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"acquistions-api","timestamp":"2025-10-18T17:18:10.541Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:18:10 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:18:10.544Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"acquistions-api","timestamp":"2025-10-18T17:18:31.460Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:18:31 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:18:31.462Z"}
+{"level":"info","message":"User hlo@gmail.com authenticated successfully","service":"acquistions-api","timestamp":"2025-10-18T17:33:41.304Z"}
+{"level":"info","message":"User signed in successfully: hlo@gmail.com","service":"acquistions-api","timestamp":"2025-10-18T17:33:41.324Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:33:41 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:33:41.333Z"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"acquistions-api","timestamp":"2025-10-18T17:34:47.883Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:34:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:34:47.897Z"}
+{"level":"info","message":"User hlo@gmail.com authenticated successfully","service":"acquistions-api","timestamp":"2025-10-18T17:35:16.461Z"}
+{"level":"info","message":"User signed in successfully: hlo@gmail.com","service":"acquistions-api","timestamp":"2025-10-18T17:35:16.471Z"}
+{"level":"info","message":"::1 - - [18/Oct/2025:17:35:16 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 109 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-18T17:35:16.479Z"}
+{"level":"info","message":"Hello from Acquistion","service":"acquistions-api","timestamp":"2025-10-19T09:44:56.352Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:44:56 +0000] \"GET / HTTP/1.1\" 200 22 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquistions-api","timestamp":"2025-10-19T09:44:56.402Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:44:57 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquistions-api","timestamp":"2025-10-19T09:44:57.299Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:45:45 +0000] \"GET /api HTTP/1.1\" 200 39 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquistions-api","timestamp":"2025-10-19T09:45:45.403Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:46:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"acquistions-api","timestamp":"2025-10-19T09:46:07.187Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/api","service":"acquistions-api","timestamp":"2025-10-19T09:46:46.012Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:46:46 +0000] \"GET /api HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T09:46:46.021Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquistions-api","timestamp":"2025-10-19T09:46:53.751Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:46:53 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T09:46:53.756Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquistions-api","timestamp":"2025-10-19T09:47:12.353Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:47:12 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T09:47:12.359Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquistions-api","timestamp":"2025-10-19T09:47:32.126Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:09:47:32 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T09:47:32.131Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquistions-api","timestamp":"2025-10-19T10:00:01.237Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:10:00:01 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T10:00:01.249Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquistions-api","timestamp":"2025-10-19T10:00:16.693Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:10:00:16 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T10:00:16.696Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"acquistions-api","timestamp":"2025-10-19T10:01:06.270Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:10:01:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T10:01:06.282Z"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-up","service":"acquistions-api","timestamp":"2025-10-19T10:02:20.741Z","userAgent":"PostmanRuntime/7.49.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [19/Oct/2025:10:02:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.49.0\"","service":"acquistions-api","timestamp":"2025-10-19T10:02:20.750Z"}
