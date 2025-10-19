@@ -1,4 +1,3 @@
-// eslint.config.js
 import js from '@eslint/js';
 
 export default [
@@ -20,6 +19,7 @@ export default [
         clearInterval: 'readonly',
       },
     },
+
     rules: {
       indent: ['error', 2, { SwitchCase: 1 }],
       'linebreak-style': ['error', 'unix'],
@@ -34,7 +34,7 @@ export default [
     },
   },
   {
-    files: ['tests/**/*.js'],
+    files: ['**/*.test.js'],
     languageOptions: {
       globals: {
         describe: 'readonly',

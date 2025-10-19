@@ -7,7 +7,6 @@ const securityMiddleware = async (req, res, next) => {
     const role = req.user?.role || 'guest';
 
     let limit;
-
     switch (role) {
       case 'admin':
         limit = 20;
@@ -20,18 +19,27 @@ const securityMiddleware = async (req, res, next) => {
         break;
     }
 
-    const client = aj.withRule(
-      slidingWindow({
-        mode: 'LIVE',
-        interval: '1m',
-        max: limit,
-        name: `${role}-rate-limit`,
-      })
-    );
+    // Use real Arcjet client in dev/prod, dummy client in test
+    const client =
+      process.env.NODE_ENV === 'test'
+        ? {
+          protect: async () => ({
+            isDenied: () => false, // always allow
+            reason: {},
+          }),
+        }
+        : aj.withRule(
+          slidingWindow({
+            mode: 'LIVE',
+            interval: '1m',
+            max: limit,
+            name: `${role}-rate-limit`,
+          })
+        );
 
     const decision = await client.protect(req);
 
-    if (decision.isDenied() && decision.reason.isBot()) {
+    if (decision.isDenied && decision.isDenied() && decision.reason.isBot) {
       logger.warn('Bot request blocked', {
         ip: req.ip,
         userAgent: req.get('User-Agent'),
@@ -44,7 +52,7 @@ const securityMiddleware = async (req, res, next) => {
       });
     }
 
-    if (decision.isDenied() && decision.reason.isShield()) {
+    if (decision.isDenied && decision.isDenied() && decision.reason.isShield) {
       logger.warn('Shield Blocked request', {
         ip: req.ip,
         userAgent: req.get('User-Agent'),
@@ -58,7 +66,11 @@ const securityMiddleware = async (req, res, next) => {
       });
     }
 
-    if (decision.isDenied() && decision.reason.isRateLimit()) {
+    if (
+      decision.isDenied &&
+      decision.isDenied() &&
+      decision.reason.isRateLimit
+    ) {
       logger.warn('Rate limit exceeded', {
         ip: req.ip,
         userAgent: req.get('User-Agent'),
@@ -74,9 +86,10 @@ const securityMiddleware = async (req, res, next) => {
   } catch (e) {
     console.error('Arcjet middleware error:', e);
     res.status(500).json({
-      errro: 'Internal server error',
+      error: 'Internal server error',
       message: 'Something went wrong with security middleware',
     });
   }
 };
+
 export default securityMiddleware;
