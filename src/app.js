@@ -10,6 +10,7 @@ import userRoutes from './routes/user.route.js';
 import securityMiddleware from './middlewares/security.middlware.js';
 
 const app = express();
+console.log("hi");
 
 app.use(helmet()); //middleware
 app.use(cors());
