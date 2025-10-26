@@ -11,6 +11,7 @@ import securityMiddleware from './middlewares/security.middlware.js';
 
 const app = express();
 console.log("hi");
+console.log("poll scm");
 
 app.use(helmet()); //middleware
 app.use(cors());
