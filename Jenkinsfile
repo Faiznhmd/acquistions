@@ -1,35 +1,35 @@
-pipeline{
-  agent any 
-  stages{
-    stage('checkout code'){
-      steps{
-        git 'https://github.com/Faiznhmd/acquistions'
-      }
-    }
-      stage('Build') {
+pipeline {
+    agent any 
+    stages {
+        stage('checkout code') {
             steps {
-               sh 'echo "Building the app"'
+                git branch: 'main', url: 'https://github.com/Faiznhmd/acquistions'
             }
         }
-    stage('Test') {
-             steps {
-               sh 'echo Running the test"'
+        stage('Build') {
+            steps {
+                sh 'echo "Building the app"'
             }
         }
-       stage('Deploy') {
-             steps {
-               sh 'echo "Deploying the App"'
+        stage('Test') {
+            steps {
+                sh 'echo "Running the tests"'
             }
         }
-  }
-  post{
+        stage('Deploy') {
+            steps {
+                sh 'echo "Deploying the app"'
+            }
+        }
+    }
+    post {
+        success {
+            echo '✅ Build succeeded!'
+        }
+        failure {
+            echo '❌ Build failed!'
+        }
+    }
+}
 
-  success{
-    bat 'echo "success"'
-  }
-    success{
-    bat 'echo "Failure"'
-  }
-}
-}
 
